@@ -1,0 +1,24 @@
+{
+  "name": "node-typescript-starter",
+  "version": "1.0.0",
+  "description": "Starter project for a script written in Typescript that uses Node.",
+  "main": "index.ts",
+  "scripts": {
+    "main": "babel-node --extensions '.ts' index.ts"
+  },
+  "author": "Derin Dutz",
+  "license": "Unlicense",
+  "dependencies": {
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/node": "^14.14.22",
+    "typescript": "^4.1.3"
+  }
+}

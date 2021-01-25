@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/env", // Fixes `Cannot use import statement outside a module`
+    "@babel/preset-typescript" // Allow typescript parsing
+  ],
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread"
+  ]
+}
