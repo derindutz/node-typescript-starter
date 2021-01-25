@@ -4,7 +4,7 @@ Starter project for a script written in Typescript that uses Node.
 
 Use this to write scripts that interface with API endpoints. I've imported `superagent` in `index.ts` which makes it easy to access the Internet.
 
-## Setup
+## How can I run the script?
 
 ```
 $ npm install
